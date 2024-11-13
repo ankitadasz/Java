@@ -1,6 +1,6 @@
 In Java, data types are of two types: **primitive** and **non-primitive**.
 
-### Primitive Data Types
+## Primitive Data Types
 Primitive data types consist of **boolean** and **numeric** types.
 
 - **Boolean**: Represented by `boolean`.
@@ -12,7 +12,7 @@ Primitive data types consist of **boolean** and **numeric** types.
 
 Primitive data types have fixed sizes.
 
-### Non-Primitive Data Types
+## Non-Primitive Data Types
 Non-primitive data types include:
 - `String`
 - `Array`
@@ -22,3 +22,6 @@ Non-primitive data types include:
 - `Union`
 
 Non-primitive data types do not have fixed sizes.
+
+## Variable Definition
+A **variable** is defined as a named location in memory used to store data that can change during program execution.
