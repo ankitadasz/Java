@@ -10,7 +10,7 @@ public class Patterns {
                 }
                 else{
                     System.out.print(" "+" ");
-                }10
+                }
                 
             }
             System.out.println();
