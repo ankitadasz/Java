@@ -66,3 +66,41 @@
 - **Important Keywords**: `public`, `static`, `void`, `String`.
 - **Immutable Strings**: Ensures security and efficiency in the execution process.
 
+
+
+# Java Basics Explained
+
+### Use of `System`
+- `System` is a class that is part of the `java.lang` package.
+- It provides access to system resources and utilities, such as standard input, output, and error streams.
+
+### Use of `out`
+- `out` is a static variable in the `System` class.
+- It represents the standard output stream and is an instance of `PrintStream`.
+- `System.out` is commonly used for printing text to the console.
+
+### Use of `println`
+- `println` is a method in the `PrintStream` class.
+- It is used to print messages to the console with a newline at the end.
+- `PrintStream` provides three main methods for output:
+  1. `print()` - Prints text without a newline.
+  2. `println()` - Prints text followed by a newline.
+  3. `printf()` - Formats and prints text based on a format string.
+
+### Order of Modifiers in the `main` Method
+In a Java program, the order of modifiers in the `main` method can be changed without affecting its functionality. For example:
+
+```java
+public static void main(String[] args) {  
+    // Code here
+}
+```
+
+is equivalent to:
+
+```java
+static public void main(String[] args) {  
+    // Code here
+}
+```
+
