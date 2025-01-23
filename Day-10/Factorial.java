@@ -6,9 +6,15 @@ public class Factorial {
         System.out.println("Enter the value of a:");
         Scanner sc=new Scanner(System.in);
         a = sc.nextInt();
-        for(i = 1 ; i <= a ; i++){
+        if(fact==1){
+            System.out.println("factorial is:1");
+        }
+        else{
+             for(i = 1 ; i <= a ; i++){
             fact=fact*i;
         }
     System.out.println("factorial is:"+ fact);
     }
+        }
+       
 }
