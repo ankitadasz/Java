@@ -147,3 +147,54 @@ This will output:
 10 20 30 
 ```
 
+
+## 2D Array in Java
+
+### Declarations and Assignments
+
+```java
+int [][] a, b; // 'a' is a 2D array, 'b' is also a 2D array
+int [] a[], b; // 'a' is a 2D array, but 'b' is a 1D array
+int [] a[], b[]; // 'a' is a 2D array, 'b' is also a 2D array
+int [][] a, b[]; // 'a' is a 2D array, 'b' is a 3D array
+int [][] a, []b; // Compile-time error: Incorrect bracket placement for 'b'
+```
+
+### Correct 2D Array Initialization
+
+For a normal matrix array, you declare both the number of rows and columns:
+
+```java
+int [][] a;
+a = new int[2][]; // Declaring an array with 2 rows, but columns are not yet defined
+
+a[0] = new int[3]; // First row has 3 columns
+a[1] = new int[2]; // Second row has 2 columns
+```
+
+Alternatively, initializing a complete 2D array:
+
+```java
+int [][] a = new int[2][3]; // 2 rows and 3 columns
+```
+
+Using direct initialization:
+
+```java
+int [][] a = {
+    {10, 20, 30},
+    {40, 50, 60}
+};
+```
+
+### Jagged Array
+
+A jagged array is a 2D array where rows have different column sizes:
+
+```java
+int[][] a;
+a = new int[2][]; // 2 rows, but columns are assigned later
+```
+
+This allows for different row sizes, making it more flexible than a regular 2D array.
+
