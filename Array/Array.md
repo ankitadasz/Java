@@ -198,3 +198,35 @@ a = new int[2][]; // 2 rows, but columns are assigned later
 
 This allows for different row sizes, making it more flexible than a regular 2D array.
 
+## How to Print 1D, 2D, and 3D Arrays
+
+### 1D Array:
+```java
+int a = {1, 2, 34, 3};
+for (int i = 0; i < a.length; i++) {
+   System.out.println(a[i]);
+}
+```
+
+### 2D Array:
+```java
+int[][] a = {{1, 2, 3}, {4, 5, 6}};
+for (int i = 0; i < a.length; i++) {
+   for (int j = 0; j < a[i].length; j++) {
+      System.out.println(a[i][j]);
+   }
+}
+```
+
+### 3D Array:
+```java
+int[][][] a = {{{1, 2, 3}, {4, 5, 6}}, {{12, 34, 44}, {63, 32, 23}}};
+for (int i = 0; i < a.length; i++) {
+   for (int j = 0; j < a[i].length; j++) {
+      for (int k = 0; k < a[i][j].length; k++) {
+         System.out.println(a[i][j][k]);
+      }
+   }
+}
+```
+
